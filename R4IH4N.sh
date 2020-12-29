@@ -9,6 +9,40 @@ c='\033[1;36m'
 p='\033[1;37m'
 clear='\033[0m'
 clear
+bi='\033[34;1m' #biru
+i='\033[32;1m' #ijo
+pur='\033[35;1m' #purple
+cy='\033[36;1m' #cyan
+me='\033[31;1m' #merah
+pu='\033[37;1m' #putih
+ku='\033[33;1m' #kuning
+mer='\033[41;97m' #Tepi
+R='\x1b[1;31m'
+G='\x1b[1;32m'
+B='\x1b[1;34m'
+Y='\x1b[1;33m'
+C='\x1b[1;36m'
+D='\x1b[0m'
+endc='\E[0m'
+enda='\033[0m'
+figlet -f pagga "Login Dulu" |lolcat -a -d 5
+echo $me"╔══════════╗"
+read -p "║ Username :" lu
+echo $pu"║"
+read -p "║ Password :" tod
+echo $pu"╚══════════╝"
+
+if [ $lu = "MR.404" ]|[ $tod = "RAIHAN" ]
+then
+echo $cy"Login Sukses"
+sleep 3
+cd system
+sh R4IH4N.sh
+else
+echo $me"SALAH GOBLOG CAHT AUT!!!"
+sleep 3
+xdg-open 'https://wa.me/6282331072836/?text=Assalamualaikum+Apa+User+Sama+PassNya+Kak'
+fi
 echo "${p}pesan${r}: ${k}PROGRAM INI HANYA PROGRAM SEDERHANA YANG 
 RAIHAN(SAYA) DESIGN TIDAK BENAR BENAR BERFUNGSI
 UNTUK HACK SATELIT. JADI JANGAN BAPER YA BRO!!!"
