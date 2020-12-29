@@ -40,7 +40,8 @@ sleep 2
 else
    echo "\033[1;31mPasswordnya Salah bego!"
    echo "\033[1;31mCoba Chat Mr.404"
-   echo "\033[1;32mWA :\033[1;36m082331072836"
+sleep 3
+xdg-open 'https://wa.me/6282331072836/?text=Assalamualaikum+Apa+passnya+MR.404'
    echo "\033[1;35m"
 exit
 fi
