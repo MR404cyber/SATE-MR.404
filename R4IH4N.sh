@@ -28,7 +28,9 @@ enda='\033[0m'
 clear
 figlet -f pagga "Login Dulu" |lolcat -a -d 5
 
-echo -n "\033[1;32mMsukan Passwordnya Disini :"
+echo $me"╔══════════╗"
+echo $ku"║ Password :"
+echo $pu"╚══════════╝"
 read pwd;
 
 if [ $pwd = "MR.404" ]
